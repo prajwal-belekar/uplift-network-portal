@@ -25,7 +25,13 @@ export const Navbar = () => {
               Sign In
             </Button>
             <Button className="bg-[#7E69AB] hover:bg-[#6E59A5]">
-              Get Started
+              Sign In
+            </Button>
+            <Button 
+              variant="secondary"
+              className="bg-[#FEC6A1] hover:bg-[#FDB483] text-[#7E69AB] border-none"
+            >
+              Register
             </Button>
           </div>
         </div>
