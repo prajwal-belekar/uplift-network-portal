@@ -25,7 +25,7 @@ export const Navbar = () => {
               Sign In
             </Button>
             <Button className="bg-[#7E69AB] hover:bg-[#6E59A5]">
-              Sign In
+              Sign Up
             </Button>
             <Button 
               variant="secondary"
