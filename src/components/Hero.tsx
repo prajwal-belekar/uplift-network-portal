@@ -5,14 +5,14 @@ export const Hero = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/5 to-accent/5 pt-16">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#9b87f5] via-[#FEC6A1] to-[#D6BCFA] pt-16">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center animate-fade-in">
-          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Empowering Lives,
-            <span className="text-primary"> Building Futures</span>
+            <span className="text-[#6E59A5]"> Building Futures</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-600 mb-8">
+          <p className="text-lg md:text-xl text-gray-800 mb-8">
             Connecting vulnerable individuals with organizations and opportunities
             for a better tomorrow. Join us in making a difference.
           </p>
@@ -20,7 +20,7 @@ export const Hero = () => {
             <Button
               size="lg"
               onClick={() => navigate("/profiles")}
-              className="bg-primary hover:bg-primary-hover"
+              className="bg-[#7E69AB] hover:bg-[#6E59A5] text-white"
             >
               Find Help
             </Button>
@@ -28,6 +28,7 @@ export const Hero = () => {
               size="lg"
               variant="outline"
               onClick={() => navigate("/ngo")}
+              className="bg-white/80 hover:bg-white text-[#6E59A5] border-[#6E59A5]"
             >
               Partner with Us
             </Button>
