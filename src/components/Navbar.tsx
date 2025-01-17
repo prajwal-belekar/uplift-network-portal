@@ -16,6 +16,9 @@ export const Navbar = () => {
             <Link to="/profiles" className="hover:text-[#7E69AB] transition-colors">
               Find Help
             </Link>
+            <Link to="/partners" className="hover:text-[#7E69AB] transition-colors">
+              Partner with Us
+            </Link>
             <Link to="/ngo" className="hover:text-[#7E69AB] transition-colors">
               NGOs
             </Link>
